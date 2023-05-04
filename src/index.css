@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("https://thumbs.dreamstime.com/b/closeup-shot-gucci-logo-written-dark-brown-wall-san-francisco-city-center-california-closeup-shot-gucci-logo-262172188.jpg") no-repeat center/cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1, h2, h3, h4, h5, h6, p{
+   font-family: Papyrus,sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
