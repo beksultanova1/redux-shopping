@@ -13,15 +13,15 @@ const ProductDetails = () => {
         getDetails()
     }, [])
     return (
-        <div className="bg-blue-950 flex justify-center items-center mx-64 py-5 m-36 rounded-3xl">
-            <img className="bg-purple-800 m-24" width={100} height={100} src={details.image} alt="#"/>
-            <div className="text-white text-2xl">
-                <p>{details.category}</p>
-                <h6>{details.description}</h6>
-                <h1>{details.title}</h1>
-                <h2>{details.price}$</h2>
+            <div className="flex justify-center items-center mx-64 py-5 m-36">
+                <img className="bg-purple-800 m-24 rounded-3xl" src={details.image} width={250} alt="#"/>
+                <div className="text-white  text-2xl py-5">
+                    <p>{details.category}</p>
+                    <h6>{details.description}</h6>
+                    <h1>{details.title}</h1>
+                    <h2>{details.price}$</h2>
+                </div>
             </div>
-        </div>
     );
 };
 

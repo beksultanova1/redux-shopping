@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className="">
-            <h1 className="bg-white border-gray-200  dark:bg-gray-900 py-5 text-white text-xl text-center">Shop & Trade</h1>
+            <h1 className="text-white text-center text-2xl  dark:bg-gray-900 dark:border-gray-700 py-5">my favorite shopping</h1>
         </div>
     );
 };

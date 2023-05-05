@@ -41,7 +41,6 @@ const Basket = () => {
                 {total === 0 ? null : <h1 className="text-xl">Total : {total}$</h1>}
             </div>
         </div>
-
     );
 };
 

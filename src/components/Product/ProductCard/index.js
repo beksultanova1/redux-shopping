@@ -21,9 +21,9 @@ const ProductCard = ({product}) => {
         dispatch({type: "ADD_TO_FAVORİTE", payload: product})
     }
     return (
-        <div className="max-w-sm bg-white border   border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700">
             <Link to={`/details/${product.id}`}>
-                <img className="rounded-xl object-cover ml-[40px] my-[20px]"   src={product.image} width={300}   alt=""/>
+                <img className="rounded-xl object-cover ml-[40px] my-[20px]" src={product.image} width={300}   alt="#"/>
             </Link>
             <div className="p-5">
                 <a href="#">
