@@ -11,16 +11,16 @@ const Product = () => {
     }, [])
     console.log(product)
     return (
-        <div className="basis-3/12 m-20">
-            <h1 className="text-white text-center my-5 text-5xl">Gucci</h1>
-            <div className="flex flex-wrap justify-center gap-14">
-                {
-                    product.map((el) => (
-                        <ProductCard product={el}/>
-                    ))
-                }
+            <div className="basis-3/12 m-20">
+                <h1 className="text-white text-center my-5 text-5xl">Online Shopping</h1>
+                <div className="flex flex-wrap justify-center gap-14">
+                    {
+                        product.map((el) => (
+                            <ProductCard product={el}/>
+                        ))
+                    }
+                </div>
             </div>
-        </div>
     );
 };
 

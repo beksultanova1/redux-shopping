@@ -5,7 +5,7 @@ import {useSelector} from "react-redux";
 const Header = () => {
     const {basket} = useSelector(s => s.basket)
     return (
-        <div className="">
+        <div className="sticky top-0">
             <nav className="bg-white border-gray-700  dark:bg-gray-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" className="flex items-center">
