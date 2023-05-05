@@ -37,7 +37,7 @@ const Basket = () => {
                 }
                 </tbody>
             </table>
-            <div>
+            <div className="bg-gray-700 text-white text-right py-3">
                 {total === 0 ? null : <h1 className="text-xl">Total : {total}$</h1>}
             </div>
         </div>

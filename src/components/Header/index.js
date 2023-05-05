@@ -9,8 +9,8 @@ const Header = () => {
             <nav className="bg-white border-gray-700  dark:bg-gray-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" className="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo"/>
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Motion Web</span>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr_Di7aMEMFsXiXEkfuhKx2HI_L43wooPJAw&usqp=CAU" width={100} className="h-8 mr-3 rounded-[40%]" alt="Flowbite Logo"/>
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">OnlineShop</span>
                     </a>
                     <div className="flex md:order-2">
                         <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search"

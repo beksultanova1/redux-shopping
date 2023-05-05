@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div className="bg-blue-400">
+        <div className="bg-blue-950">
             <h1 className="text-center py-5 text-6xl text-white">internet shop</h1>
              <div className="flex justify-center items-center">
                 <img className="py-16" width={650} src="https://www.thesun.ie/wp-content/uploads/sites/3/2021/12/MT-SHOPPING-OFF-PLATT.jpg?strip=all&quality=100&w=1080&h=800&crop=1" alt="#"/>

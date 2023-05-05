@@ -10,7 +10,7 @@ const BasketTable = ({el}) => {
         dispatch({type: "ADD_TO_BASKET", payload: el})
     }
     const decBasket = () => {
-        dispatch({type: "DEC_BASKET"})
+        dispatch({type: "DEC_BASKET", payload: el})
     }
     return (
         <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
